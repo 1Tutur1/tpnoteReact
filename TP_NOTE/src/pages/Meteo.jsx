@@ -178,9 +178,9 @@ function Meteo() {
       ? "Il fait froid, prenez un manteau et une écharpe."
       : weather.description.toLowerCase().includes("pluvieux") ||
           weather.description.toLowerCase().includes("orage")
-        ? "Prenez une veste imperméable et un parapluie."
+        ? "Prenez un parapluie."
         : weather.temperature >= 22
-          ? "Temps chaud, privilégiez une tenue légère."
+          ? "Mettez de la crème solaire."
           : "Une tenue de mi-saison sera parfaite aujourd'hui."
     : "";
 
