@@ -1,0 +1,32 @@
+.home {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 2.5em;
+  margin-bottom: 2rem;
+}
+
+.exercises {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.exercise-btn {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background-color: #646cff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.exercise-btn:hover {
+  background-color: #535bf2;
+}
